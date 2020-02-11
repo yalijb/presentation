@@ -1,26 +1,37 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {Link as LinkScroll, Element} from "react-scroll";
+import Header from "./components/Header";
+import Howami from './components/Howami';
+import Worked from "./components/Worked";
+		   	
+class App extends React.Component  {
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	scroll(acomponent, goesTo){
+		return(
+			<LinkScroll
+			activeClass="active"
+			to={goesTo}
+			spy={true}
+			smooth={true}
+			offset={-70}
+			duration= {500}
+		>
+			{acomponent}
+		</LinkScroll>
+		)
+	}
+
+	render(){
+		return (
+				<div className="App">
+					<Header scroll={this.scroll}/>
+					<Howami/>
+					<Worked/>		
+					
+				</div>	
+		);
+	}
 }
 
 export default App;

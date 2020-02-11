@@ -1,38 +1,179 @@
 .App {
-  text-align: center;
+  text-align: center; 
+  font-weight: 400;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a{
+  color: black;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+.header {
+  background-image:url(https://res.cloudinary.com/yalibj/image/upload/v1581263912/portafolio/header1_c1rr32.jpg);
+  background-size: cover;
+  background-attachment: fixed;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  margin-top: 0px;
+  margin-bottom: 5%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.logo img{
+  border-radius: 50%;
+
+}
+
+h1 a{
+  font-size: 3rem;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid;
+
+}
+
+.nav-bar{
+  width: 75%;
+  /* margin: 5%; */
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  /* border: 3px solid; */
+  font-size: 1.5rem;
+  font-weight: bold;
+  
+}
+
+a:hover{
+  color: #0FA0CE
+}
+
+.down-arrow{
+  position: absolute;
+  bottom: 20px;
+  transform: translateX(-50%);
+}
+
+
+
+/* who am i */
+.title{
+  text-align: justify;
+  background-color: #FFFAFA;
+  border: 1px #fdfdfb solid;
+  margin: 30px 30px;  
+
+}
+
+.bar{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 0.25rem double;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.bar img{
+  display: inline;
+  margin:0 ;
+  padding: 0;
+  
+  
+}
+
+
+.item{
+  width: 85%;
+  margin: auto;
+}
+
+h2{
+  font-size: 3rem;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: left;
+  margin: 20px 5%;
+
+}
+
+p{ 
+  font-size: 1.5rem;
+  /* text-align: left; */
+ 
+  /* border: solid black 1px; */
+  margin: auto;
+  line-height: 1.6;
+  margin-bottom: 20px;
+
+}
+
+.articles{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.article{
+  width: 30%;
+  /* background-color: #0FA0CE;
+  border: 1px black solid; */
+  margin-top: 10px;
+  text-align: center;
+}
+
+.contact{
+  display: flex;
+  width: 50%;
+  margin:auto;
+  padding: 20px;
+  border: 0.25rem double;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  
+}
+
+
+
+/* MEDIAS */
+
+@media only screen and (max-width: 960px) {
+  h1 a{
+    font-size: 2.5rem;
   }
-  to {
-    transform: rotate(360deg);
+  .nav-bar a{
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+  h1 a{
+    font-size: 2rem;
+  }
+  .nav-bar a{
+    font-size: .9rem;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  h1 a{
+    font-size: 1.5rem;
+  }
+  .nav-bar a{
+    font-size: .7rem;
   }
 }
