@@ -6,10 +6,10 @@ class Routes extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/presentation/">
+                <Route exact path="https://yalijb.github.io/presentacion/">
                     <App/>
                 </Route>
-                <Route path="/presentation/contact/">
+                <Route path="https://yalijb.github.io/presentacion/contact/">
                    <Contact/>
                 </Route>
             </Switch>
