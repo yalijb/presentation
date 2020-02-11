@@ -6,10 +6,10 @@ class Routes extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="https://yalijb.github.io/presentation/">
+                <Route exact path={`${process.env.PUBLIC_URL}/`}>
                     <App/>
                 </Route>
-                <Route path="https://yalijb.github.io/presentation/contact/">
+                <Route path={`${process.env.PUBLIC_URL}/contact/`}>
                    <Contact/>
                 </Route>
             </Switch>
