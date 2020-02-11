@@ -14,7 +14,7 @@ class Contact extends Component {
                         <br/>
                         <span>Email:</span>
                         <br/>              
-                        <span>Bitbucket repository:</span>
+                        <span>Github repository:</span>
                         <br/>                
                         <span>Upwork profile:</span>
                     </div>
@@ -26,9 +26,9 @@ class Contact extends Component {
                         <br/>   
                         <a href="mailto: yangonz1512@gmail.com">yangonz1512@gmail.com</a>
                         <br/>    
-                        <span>bitbucket</span>
+                        <span><a href='https://github.com/yalijb/presentation.git' target='_blank'  rel='noopener noreferrer'>https://github.com/yalijb/presentation.git</a></span>
                         <br/>      
-                        <span>upwork</span>
+                        <span><a href='https://www.upwork.com/o/profiles/users/~018a85df105f94c323/' target='_blank'  rel='noopener noreferrer'>https://www.upwork.com/o/profiles/users/~018a85df105f94c323/</a></span>
                     </div>
                 
                 
