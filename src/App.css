@@ -29,18 +29,17 @@ a{
 
 }
 
-h1 a{
+.logo h1 a{
   font-size: 3rem;
   letter-spacing: 9px;
   text-transform: uppercase;
   text-decoration: none;
-  border: 3px solid;
+  border: 0.25rem double
 
 }
 
 .nav-bar{
   width: 75%;
-  /* margin: 5%; */
   text-transform: uppercase;
   display: flex;
   flex-direction: row;
@@ -50,7 +49,6 @@ h1 a{
 
 .nav-bar a{
   text-decoration: none;
-  /* border: 3px solid; */
   font-size: 1.5rem;
   font-weight: bold;
   
@@ -110,9 +108,6 @@ h2{
 
 p{ 
   font-size: 1.5rem;
-  /* text-align: left; */
- 
-  /* border: solid black 1px; */
   margin: auto;
   line-height: 1.6;
   margin-bottom: 20px;
@@ -129,8 +124,6 @@ p{
 
 .article{
   width: 30%;
-  /* background-color: #0FA0CE;
-  border: 1px black solid; */
   margin-top: 10px;
   text-align: center;
 }
@@ -152,7 +145,7 @@ p{
 /* MEDIAS */
 
 @media only screen and (max-width: 960px) {
-  h1 a{
+  .logo h1 a{
     font-size: 2.5rem;
   }
   .nav-bar a{
@@ -161,7 +154,7 @@ p{
 }
 
 @media only screen and (max-width: 720px) {
-  h1 a{
+  .logo h1 a{
     font-size: 2rem;
   }
   .nav-bar a{
@@ -170,7 +163,7 @@ p{
 }
 
 @media only screen and (max-width: 540px) {
-  h1 a{
+  .logo h1 a{
     font-size: 1.5rem;
   }
   .nav-bar a{
