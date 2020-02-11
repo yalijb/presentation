@@ -26,24 +26,24 @@ class Worked extends Component {
     render() {
         return (
                 <section id='worked' className='title' > 
-                <div className='bar'>
-                    <h2>worked tecnologies</h2>
-                    <div className='bar-img'>
-                       {              
-                        this.state.images.map((image,i) => {
-                            return(<img key={i} src={image} height='50px'></img>)    
-                        })
-                       }
-                      
+                    <div className='bar'>
+                        <h2>worked tecnologies</h2>
+                        <div className='bar-img'>
+                        {              
+                            this.state.images.map((image,i) => {
+                                return(<img key={i} src={image} height='50px'></img>)    
+                            })
+                        }
+                        
+                        </div>
                     </div>
-                </div>
-                <div className='articles'> 
-                    <Article info={this.state.articles[0]} images={[this.state.images[0],this.state.images[1],this.state.images[2]]}/>
-                    <Article info={this.state.articles[1]} images={[this.state.images[3],this.state.images[5]]}/>
-                    <Article info={this.state.articles[2]} images={[this.state.images[4],this.state.images[6]]}/>
+                    <div className='articles'> 
+                        <Article info={this.state.articles[0]} images={[this.state.images[0],this.state.images[1],this.state.images[2]]}/>
+                        <Article info={this.state.articles[1]} images={[this.state.images[3],this.state.images[5]]}/>
+                        <Article info={this.state.articles[2]} images={[this.state.images[4],this.state.images[6]]}/>
+                        
                     
-                   
-                </div>
+                    </div>
                 </section>
             
         );

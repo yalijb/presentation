@@ -6,7 +6,9 @@
 
 a{
   color: black;
-  
+  text-decoration: none;
+  font-size: 1.5rem;
+ 
 }
 .header {
   background-image:url(https://res.cloudinary.com/yalibj/image/upload/v1581263912/portafolio/header1_c1rr32.jpg);
@@ -48,8 +50,6 @@ a{
 }
 
 .nav-bar a{
-  text-decoration: none;
-  font-size: 1.5rem;
   font-weight: bold;
   
 }
@@ -64,9 +64,6 @@ a:hover{
   transform: translateX(-50%);
 }
 
-
-
-/* who am i */
 .title{
   text-align: justify;
   background-color: #FFFAFA;
@@ -87,8 +84,6 @@ a:hover{
   display: inline;
   margin:0 ;
   padding: 0;
-  
-  
 }
 
 
@@ -102,8 +97,11 @@ h2{
   text-transform: uppercase;
   display: inline-block;
   text-align: left;
-  margin: 20px 5%;
+  margin: 0 5%;
 
+}
+h3{
+  font-size: 2rem;
 }
 
 p{ 
@@ -137,7 +135,10 @@ p{
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  
+}
+
+span{
+  font-size: 1.5rem;
 }
 
 
@@ -151,6 +152,18 @@ p{
   .nav-bar a{
     font-size: 1.2rem;
   }
+  h2{
+    font-size:2rem ;
+    margin:0;
+  }
+  .bar img{
+    height: 40px;
+  }
+  
+  p{ 
+    font-size: 1rem;
+    line-height: 1.2;
+  }
 }
 
 @media only screen and (max-width: 720px) {
@@ -160,6 +173,20 @@ p{
   .nav-bar a{
     font-size: .9rem;
   }
+  h2{
+    font-size: 1.25rem ;
+  }
+  .bar img{
+    height: 35px;
+  }
+  p{ 
+    font-size: .7rem;
+    line-height: 1;
+  }
+  span{
+    font-size: 1rem;
+  }
+  
 }
 
 @media only screen and (max-width: 540px) {
@@ -168,5 +195,11 @@ p{
   }
   .nav-bar a{
     font-size: .7rem;
+  }
+  h2{
+    font-size: 1rem ;
+  }
+  .bar img{
+    height: 20px;
   }
 }

@@ -5,9 +5,9 @@ class Contact extends Component {
         return (
             <div className='App'>
                 <Logo/>
-                <h2 style={{fontSize:'2.5rem'}}>Information</h2>
+                <h3 >Information</h3>
                 <div className='contact'>
-                    <div>
+                    <div style={{textAlign:'left'}}>
                         <span>Nationality: </span>
                         <br/>
                         <span>Age:</span>
