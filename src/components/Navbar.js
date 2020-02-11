@@ -9,7 +9,7 @@ class Navbar extends Component {
                 
                 {this.props.scroll(<span href="#whoami">Who am i</span>, 'whoami')}
                 {this.props.scroll(<span href="#worked">Worked Tecnologies</span>, 'worked')}
-                <Link to="/contact">Contact Me</Link>
+                <Link to="/presentation/contact">Contact Me</Link>
                 
            </nav>
         );
