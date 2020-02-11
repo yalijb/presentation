@@ -6,10 +6,10 @@ class Routes extends Component {
     render() {
         return (
             <Switch>
-                <Route exact path="/presentation">
+                <Route exact path="/presentation/">
                     <App/>
                 </Route>
-                <Route path="/presentation/contact">
+                <Route path="/presentation/contact/">
                    <Contact/>
                 </Route>
             </Switch>
