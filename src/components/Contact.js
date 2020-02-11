@@ -19,12 +19,12 @@ class Contact extends Component {
                         <span>Upwork profile:</span>
                     </div>
 
-                    <div style={{textAlign:'right'}}>
+                    <div style={{textAlign:'right'}} className='right'>
                         <span>Venezolana </span>
                         <br/> 
                         <span>25</span>
                         <br/>   
-                        <a href="mailto: yangonz1512@gmail.com">yangonz1512@gmail.com</a>
+                        <span><a href="mailto: yangonz1512@gmail.com">yangonz1512@gmail.com</a></span>
                         <br/>    
                         <span><a href='https://github.com/yalijb/presentation.git' target='_blank'  rel='noopener noreferrer'>https://github.com/yalijb/presentation.git</a></span>
                         <br/>      
