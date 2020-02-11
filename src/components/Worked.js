@@ -31,7 +31,7 @@ class Worked extends Component {
                         <div className='bar-img'>
                         {              
                             this.state.images.map((image,i) => {
-                                return(<img key={i} src={image} height='50px'></img>)    
+                                return(<img key={i} src={image} height='50px' alt={`logo tecnology ${i}`} ></img>)    
                             })
                         }
                         

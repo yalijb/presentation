@@ -6,7 +6,7 @@ class Article extends Component {
             <div className='article'>
                 {
                     this.props.images.map((image,i) => {
-                        return(<img key={i} src={image} height='35px'></img>)
+                        return(<img key={i} src={image} height='35px' alt={`logo tecnology ${i}`}></img>)
                                 
                     })
                 }

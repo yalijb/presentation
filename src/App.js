@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import {Link as LinkScroll, Element} from "react-scroll";
+import {Link as LinkScroll} from "react-scroll";
 import Header from "./components/Header";
 import Howami from './components/Howami';
 import Worked from "./components/Worked";

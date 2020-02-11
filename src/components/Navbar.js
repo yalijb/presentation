@@ -7,8 +7,8 @@ class Navbar extends Component {
            <nav className='nav-bar'>    
                 
                 
-                {this.props.scroll(<a href="#whoami">Who am i</a>, 'whoami')}
-                {this.props.scroll(<a href="#worked">Worked Tecnologies</a>, 'worked')}
+                {this.props.scroll(<span href="#whoami">Who am i</span>, 'whoami')}
+                {this.props.scroll(<span href="#worked">Worked Tecnologies</span>, 'worked')}
                 <Link to="/contact">Contact Me</Link>
                 
            </nav>
