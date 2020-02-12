@@ -6,10 +6,9 @@ class Worked extends Component {
         super();
         this.state = {
             articles : {
-                '0':'I am confident using languages and templates to build responsive web pages, so as like HTML, CSS, javascript and pug.js.',
-                '1':'By develop my skills in web programming I have been attracted by the MERN methodology, so I have been learned Javascripts frameworks as like React.js and Node.js. I expect keep learning and grow as an engineer by learning other languages and frameworks.',
-                '2':'During the progress to become a professional full stack developer I designed and managed relationals and no relationals databases, been MySQL and MongoDB the tools I currently use.',
-                // '2':''
+                '0':'I am confident using languages and templates to build responsive web pages, such as HTML, CSS, javascript, and pug.js.',
+                '1':'By developing my skills in web programming I have been attracted by the MERN methodology, so I have been learned Javascript frameworks such as React.js and Node.js. I expect to keep learning and grow as an engineer by learning other languages and frameworks.',
+                '2':'During the progress to become a professional full stack developer I designed and managed relational databases and no relational databases, been MySQL and MongoDB the tools I currently use.',
             },
             images: [
                 'https://res.cloudinary.com/yalibj/image/upload/v1581297884/portafolio/html_d2wlcc.png',

@@ -4,7 +4,7 @@ class Logo extends Component {
     render() {
         return (
             <div className='logo'>
-                <h1><Link to="/">Yalianny Gonzalez </Link></h1>
+                <h1><Link to={`${process.env.PUBLIC_URL}/`}>Yalianny Gonzalez </Link></h1>
                 <img src='https://res.cloudinary.com/yalibj/image/upload/v1581282293/portafolio/yo_z6n3c0.jpg' height='150px' alt='yalianny gonzalez'>
                 </img>
             </div>
